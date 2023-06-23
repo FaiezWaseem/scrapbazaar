@@ -10,7 +10,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
           <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -35,7 +35,7 @@ export default function RootLayout({
               <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
 
             </head>
-            <body style={{ margin : 0 , padding : 0 , width : "100%" }} >
+            <body style={{ margin : 0 , padding : 0 , width : "100%" , overflowX : 'hidden' }} >
               <Providers>
                 {children}
               </Providers>
